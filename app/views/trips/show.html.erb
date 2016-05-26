@@ -1,0 +1,4 @@
+<h1><%= @trip.name %> Trip</h1>
+<br />
+<%= link_to "Edit Trip", edit_trip_path(@trip) %>
+<%= link_to "Delete Trip", trip_path(@trip), method: :delete %>
