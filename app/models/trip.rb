@@ -1,3 +1,3 @@
 class Trip < ActiveRecord::Base
-	has_many :locations, dependent: :destroy
+	has_many :locations
 end
